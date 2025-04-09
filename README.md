@@ -17,7 +17,9 @@ https://manguebytes.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigi
 ![Quadro Jira](https://github.com/user-attachments/assets/27a19549-1a58-4250-8625-389ffdf93ed2)
 
 # Screencast Lofi
-https://github.com/user-attachments/assets/3fed5641-4c0b-481a-9df2-50e7329f177e
+https://github.com/user-attachments/assets/97db8d5f-2eb0-4ff5-b919-e0ae623555a3
+
+
 
 # Grupo
 Janderson José Ferreira da Silva,
