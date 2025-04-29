@@ -5,6 +5,7 @@ import Cadastro from './pages/Cadastro';
 import Dashboard from './pages/Dashboard';
 import NovaDenuncia from './pages/NovaDenuncia';
 import DetalheDenuncia from './pages/DetalheDenuncia';
+import RegistrarDenuncia from "./pages/RegistrarDenuncia";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/nova-denuncia" element={<NovaDenuncia />} />
         <Route path="/detalhe-denuncia/:id" element={<DetalheDenuncia />} />
+        <Route path="/registrar" element={<RegistrarDenuncia />} />
       </Routes>
     </Router>
   );
