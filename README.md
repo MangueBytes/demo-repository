@@ -22,7 +22,11 @@ https://manguebytes.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigi
 # Screencast 
 
 
-https://github.com/user-attachments/assets/086937c7-4770-4379-a1dc-86b11f401f52
+https://github.com/user-attachments/assets/fd5f632f-5299-4638-8f96-76345b0f27b7
+
+
+
+
 
 
 
