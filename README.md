@@ -20,7 +20,11 @@ https://manguebytes.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigi
 ![image](https://github.com/user-attachments/assets/2df65299-9bdb-4044-ab8a-f5bc57a9bb93)
 
 # Screencast 
-https://github.com/user-attachments/assets/423385e4-8131-40c5-bbc2-bcc2c754b3c9
+
+
+https://github.com/user-attachments/assets/086937c7-4770-4379-a1dc-86b11f401f52
+
+
 
 # Grupo
 Janderson José Ferreira da Silva,
