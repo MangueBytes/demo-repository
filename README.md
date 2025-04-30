@@ -10,7 +10,7 @@ https://www.figma.com/design/0AZT7VoCdSRMA4Fy0jU8YE/Projeto----FalaRecife?node-i
 # Link Jira
 https://manguebytes.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiYTg1YmU2Y2MzODUxNGQyNTlhMTIwMTBlZGZlYjFkYWIiLCJwIjoiaiJ9
 
-#Diagrama de Atividades
+# Diagrama de Atividades
 ![WhatsApp Image 2025-04-30 at 19 45 27](https://github.com/user-attachments/assets/2afef272-851a-4212-b097-d4f40e99341b)
 
 # Backlog Jira
