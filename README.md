@@ -14,12 +14,12 @@ https://manguebytes.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigi
 ![WhatsApp Image 2025-04-30 at 19 45 27](https://github.com/user-attachments/assets/2afef272-851a-4212-b097-d4f40e99341b)
 
 # Backlog Jira
-![Backlog Jira]![image](https://github.com/user-attachments/assets/365a52bb-863f-4d7d-8502-1cc532d207cb)
+![image](https://github.com/user-attachments/assets/365a52bb-863f-4d7d-8502-1cc532d207cb)
 
 # Quadro Jira
-![Quadro Jira] ![image](https://github.com/user-attachments/assets/2df65299-9bdb-4044-ab8a-f5bc57a9bb93)
+![image](https://github.com/user-attachments/assets/2df65299-9bdb-4044-ab8a-f5bc57a9bb93)
 
-# Screencast Lofi
+# Screencast 
 https://github.com/user-attachments/assets/423385e4-8131-40c5-bbc2-bcc2c754b3c9
 
 # Grupo
