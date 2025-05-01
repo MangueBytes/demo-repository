@@ -11,13 +11,19 @@ https://www.figma.com/design/0AZT7VoCdSRMA4Fy0jU8YE/Projeto----FalaRecife?node-i
 https://manguebytes.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiYTg1YmU2Y2MzODUxNGQyNTlhMTIwMTBlZGZlYjFkYWIiLCJwIjoiaiJ9
 
 # Diagrama de Atividades
-![WhatsApp Image 2025-04-30 at 19 45 27](https://github.com/user-attachments/assets/2afef272-851a-4212-b097-d4f40e99341b)
+![WhatsApp Image 2025-04-30 at 21 07 23](https://github.com/user-attachments/assets/6423df52-ffb0-4380-ad68-0d1f1cdab9bb)
 
 # Backlog Jira
 ![image](https://github.com/user-attachments/assets/365a52bb-863f-4d7d-8502-1cc532d207cb)
 
 # Quadro Jira
 ![image](https://github.com/user-attachments/assets/2df65299-9bdb-4044-ab8a-f5bc57a9bb93)
+
+# Atualização design do site
+![Captura de tela 2025-04-30 210155](https://github.com/user-attachments/assets/b43e409c-4e70-4c11-a7b1-3c32d4775e7c)
+
+# bug tracker
+![image](https://github.com/user-attachments/assets/56563c02-592e-476c-b1e6-2d12c7ff49f1)
 
 # Screencast 
 
