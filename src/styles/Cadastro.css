@@ -2,10 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;
     padding: 60px 20px;
-    background-color: #f9fafb;
+    background-color: #FAF3E0;
     min-height: calc(100vh - 100px); /* tirando altura do header */
   }
+
+  .cadastro-img {
+  border-radius: 16px;
+  width: 700px; /* ou o tamanho que quiser */
+  max-width: 100%;
+}
   
   .form-box {
     background: white;

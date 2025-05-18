@@ -1,5 +1,7 @@
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
+import iconFace from "../assets/icone facebook.png";
+import iconGoogle from "../assets/icone google.png";
 
 function Home() {
   return (
@@ -23,8 +25,9 @@ function Home() {
               <button type="submit" className="btn-darkblue">Entrar</button>
             </form>
             <div className="social-login">
-              <button className="btn-google">Entrar com Google</button>
-              <button className="btn-facebook">Entrar com Facebook</button>
+              <button className="btn-google">
+              <img src={iconGoogle} alt="Google" className="btn-icon" />Entrar com Google</button>
+              <button className="btn-facebook"> <img src={iconFace} alt="Face" className="btn-icon" />Entrar com Facebook</button>
             </div>
           </div>
         </div>

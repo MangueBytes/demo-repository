@@ -1,12 +1,14 @@
 import Header from "../components/Header";
 import "../styles/Cadastro.css";
 import { Link } from "react-router-dom";
+import cadImage from "../assets/recCad.png";
 
 function Cadastro() {
   return (
     <>
       <Header />
       <div className="cadastro-container">
+          <img src={cadImage} alt="Cadastro" className="cadastro-img" />
         <div className="form-box">
           <h2>Cadastre-se</h2>
           <form>
