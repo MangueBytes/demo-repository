@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Header from "../components/Header";
 import "../styles/NovaDenuncia.css";
 import MapPage from "./MapPage";
@@ -11,12 +11,14 @@ function NovaDenuncia() {
     endereco: ""
   });
 
+  const fileInputRef = useRef(null); // <- Referência para o input de arquivo
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // impede recarregamento da página
+    e.preventDefault();
 
     const conteudo = `
 Título: ${formData.titulo}
@@ -33,7 +35,20 @@ Endereço: ${formData.endereco}
     link.download = "denuncia.txt";
     link.click();
 
-    URL.revokeObjectURL(url); // limpa o objeto de memória
+    URL.revokeObjectURL(url);
+
+    // Limpa o formulário
+    setFormData({
+      titulo: "",
+      descricao: "",
+      categoria: "",
+      endereco: ""
+    });
+
+    // Limpa o campo de arquivo
+    if (fileInputRef.current) {
+      fileInputRef.current.value = "";
+    }
   };
 
   return (
@@ -84,7 +99,7 @@ Endereço: ${formData.endereco}
 
             <MapPage endereco={formData.endereco} />
 
-            <input type="file" />
+            <input type="file" ref={fileInputRef} />
 
             <button type="submit">Enviar Denúncia</button>
           </form>
