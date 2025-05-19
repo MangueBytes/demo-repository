@@ -24,7 +24,7 @@ export function Sobre() {
         <div className="integrantes-lista">
           <div className="integrante-card">
             <img
-            src="src\assets\avatar.png" 
+            src="src\assets\janderson.png" 
             alt="Avatar do usuário"
             className="perfil-avatar"
             />
@@ -40,7 +40,7 @@ export function Sobre() {
           </div>
           <div className="integrante-card">
             <img
-            src="src\assets\avatar.png" 
+            src="src\assets\rhaldney.png" 
             alt="Avatar do usuário"
             className="perfil-avatar"
             />
