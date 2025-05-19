@@ -1,6 +1,7 @@
 // src/pages/RegistrarDenuncia.jsx
 import React from 'react';
 import SidebarLayout from '../components/SidebarLayout';
+import MapPage from './MapPage';
 
 const RegistrarDenuncia = () => {
   return (
@@ -11,4 +12,7 @@ const RegistrarDenuncia = () => {
   );
 };
 
+
+
 export default RegistrarDenuncia;
+

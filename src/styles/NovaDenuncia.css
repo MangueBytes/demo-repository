@@ -1,60 +1,59 @@
-/* src/styles/NovaDenuncia.css */
 .denuncia-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 60px 20px;
     background-color: #FAF3E0;
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+    background-color: #f3f4f6;
     min-height: calc(100vh - 100px);
-  }
-  
-  .denuncia-box {
-    background: white;
-    padding: 40px;
-    border-radius: 16px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    max-width: 600px;
-    width: 100%;
-  }
-  
-  .denuncia-box h2 {
+}
+
+.denuncia-box {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4 12px rgba(0, 0, 0, 0.8);
+}
+
+ .denuncia-box h2 {
     font-size: 24px;
     margin-bottom: 20px;
     color: #111827;
   }
-  
-  .denuncia-box form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .denuncia-box input,
-  .denuncia-box select,
-  .denuncia-box textarea {
-    margin-bottom: 15px;
-    padding: 12px;
-    font-size: 16px;
-    border: 1px solid #d1d5db;
-    border-radius: 8px;
-  }
-  
-  .denuncia-box input[type="file"] {
-    background-color: #f9fafb;
-    padding: 10px;
-  }
-  
-  .denuncia-box button.btn-darkblue {
-    background-color: #1e3a8a;
-    color: white;
-    padding: 12px;
-    border: none;
-    font-weight: bold;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
-  
-  .denuncia-box button.btn-darkblue:hover {
-    background-color: #1e40af;
-  }
-  
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="text"],
+textarea,
+select,
+input[type="file"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  padding: 12px;
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.map-container {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+}
