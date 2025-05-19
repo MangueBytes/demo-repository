@@ -1,0 +1,65 @@
+.como-funciona-container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: 'Poppins', sans-serif;
+  color: #1f2937; /* cinza escuro */
+  background-color: #ebdbc2;
+  border-radius: 3%;
+}
+
+.titulo-principal {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #111827;
+}
+
+.etapas-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.etapa-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.etapa-titulo {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1d4ed8;
+}
+
+.etapa-descricao {
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.funcionalidades-section {
+  margin-top: 2.5rem;
+}
+
+.funcionalidades-titulo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #111827;
+}
+
+.funcionalidades-lista {
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
+
+.funcionalidade-item {
+  font-size: 0.95rem;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}

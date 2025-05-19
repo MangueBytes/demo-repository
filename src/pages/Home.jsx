@@ -8,7 +8,7 @@ function Home() {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    navigate("/Perfil"); // Redireciona para /painel
+    navigate("/Perfil");
   };
   return (
     <>

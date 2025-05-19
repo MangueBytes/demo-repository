@@ -7,6 +7,8 @@ import NovaDenuncia from './pages/NovaDenuncia';
 import DetalheDenuncia from './pages/DetalheDenuncia';
 import RegistrarDenuncia from "./pages/RegistrarDenuncia";
 import Perfil from './pages/Perfil';
+import { Sobre } from './pages/Sobre';
+import { ComoFunciona } from './pages/como-funciona';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/sobre" element={<Sobre />} />
+        <Route path="/como-funciona" element={<ComoFunciona />} />
         <Route path="/cadastro" element={<Cadastro />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/nova-denuncia" element={<NovaDenuncia />} />

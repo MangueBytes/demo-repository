@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-
+//not used
 function DetalheDenuncia() {
   const { id } = useParams();
 

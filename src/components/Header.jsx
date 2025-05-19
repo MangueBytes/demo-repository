@@ -10,8 +10,8 @@ function Header() {
       </div>
       <nav className="nav">
         <Link to="/">Início</Link>
-        <Link to="/sobre">Sobre</Link>
         <Link to="/como-funciona">Como Funciona</Link>
+        <Link to="/sobre">Sobre</Link>
         <Link to="/cadastro">Cadastro</Link>
       </nav>
     </header>

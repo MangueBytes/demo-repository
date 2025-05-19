@@ -7,12 +7,12 @@ const SidebarLayout = ({ children }) => {
     <div className="layout-container">
       <aside className="sidebar">
         <img src="/logo falarecife.png" alt="Logo Fala Recife" className="logo-img-sidebar" />
-        <nav className="menu">
-          <a href="/" className="menu-link">Início</a>
-          <a href="/registrar" className="menu-link">Registrar denúncia</a>
-          <a href="/minhas-denuncias" className="menu-link">Minhas denúncias</a>
-          <a href="/estatisticas" className="menu-link">Estatísticas</a>
-          <a href="/Perfil" className="menu-link">Perfil</a>
+         <nav className="menu">
+          <Link to="/" className="menu-link">Início</Link>
+          <Link to="/nova-denuncia" className="menu-link">Detalhe da Denúncia</Link>
+          <Link to="/minhas-denuncias" className="menu-link">Minhas denúncias</Link>
+          <Link to="/estatisticas" className="menu-link">Estatísticas</Link>
+          <Link to="/perfil" className="menu-link">Perfil</Link>
         </nav>
       </aside>
       <main className="content">
