@@ -1,8 +1,11 @@
-// src/pages/NovaDenuncia.jsx
+import { useState } from "react";
 import Header from "../components/Header";
 import "../styles/NovaDenuncia.css";
+import MapPage from "./MapPage";
 
 function NovaDenuncia() {
+  const [endereco, setEndereco] = useState("");
+
   return (
     <>
       <Header />
@@ -10,21 +13,38 @@ function NovaDenuncia() {
         <div className="denuncia-box">
           <h2>Registrar Nova Denúncia</h2>
           <form>
-            <input type="text" placeholder="Título da denúncia" required />
-            <textarea placeholder="Descreva o problema..." rows="4" required></textarea>
-            
+            <input
+              type="text"
+              placeholder="Título da denúncia"
+              required
+            />
+
+            <textarea
+              placeholder="Descreva o problema..."
+              rows="4"
+              required
+            ></textarea>
+
             <select required>
               <option value="">Selecione uma categoria</option>
-              <option value="buraco">Buraco na rua</option>
-              <option value="iluminacao">Problema de iluminação</option>
-              <option value="lixo">Acúmulo de lixo</option>
+              <option value="lixo">Lixo</option>
+              <option value="buraco">Buraco</option>
               <option value="outro">Outro</option>
             </select>
 
-            <input type="text" placeholder="Endereço do problema" required />
-            <input type="file" accept="image/*" />
+            <input
+              type="text"
+              placeholder="Endereço do problema"
+              value={endereco}
+              onChange={(e) => setEndereco(e.target.value)}
+              required
+            />
 
-            <button type="submit" className="btn-darkblue">Enviar Denúncia</button>
+            {/* Mapa vinculado ao endereço */}
+            <MapPage endereco={endereco} />
+
+            <input type="file" />
+            <button type="submit">Enviar Denúncia</button>
           </form>
         </div>
       </div>
