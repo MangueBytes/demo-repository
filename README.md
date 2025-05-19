@@ -48,4 +48,10 @@ https://github.com/user-attachments/assets/fd5f632f-5299-4638-8f96-76345b0f27b7
 Janderson José Ferreira da Silva,
 Pedro Henrique Rennil da Silva Souza,
 Rhaldney Robert Chaves Diniz.
+![Auto Assign](https://github.com/MangueBytes/demo-repository/actions/workflows/auto-assign.yml/badge.svg)
+
+![Proof HTML](https://github.com/MangueBytes/demo-repository/actions/workflows/proof-html.yml/badge.svg)
+
+# Welcome to your organization's demo respository
+This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
 
