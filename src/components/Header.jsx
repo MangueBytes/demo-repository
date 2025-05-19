@@ -6,7 +6,8 @@ function Header() {
   return (
     <header className="header">
       <div className="logo-box">
-    <img src="/logo.png" alt="Logo Fala Recife" className="logo-img" /></div>
+            <img src="/logo.png" alt="Logo Fala Recife" className="logo-img-header" />
+      </div>
       <nav className="nav">
         <Link to="/">Início</Link>
         <Link to="/sobre">Sobre</Link>

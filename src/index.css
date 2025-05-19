@@ -48,6 +48,7 @@ body {
   font-weight: bold;
   cursor: pointer;
   font-size: 16px;
+  gap: 10px;
 }
 
 .btn-yellow:hover {
@@ -149,4 +150,20 @@ input {
 
 .btn-facebook:hover {
   background: #2d4373;
+}
+
+.descricao-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.descricao-home {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px; /* Espaço entre o texto e a imagem */
+}
+
+.icone-descricao {
+  width: 160px;
+  height: 160px;
 }

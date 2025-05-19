@@ -6,6 +6,7 @@ import Dashboard from './pages/Dashboard';
 import NovaDenuncia from './pages/NovaDenuncia';
 import DetalheDenuncia from './pages/DetalheDenuncia';
 import RegistrarDenuncia from "./pages/RegistrarDenuncia";
+import Perfil from './pages/Perfil';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/nova-denuncia" element={<NovaDenuncia />} />
         <Route path="/detalhe-denuncia/:id" element={<DetalheDenuncia />} />
         <Route path="/registrar" element={<RegistrarDenuncia />} />
+        <Route path="/perfil" element={<Perfil />} />
       </Routes>
     </Router>
   );
