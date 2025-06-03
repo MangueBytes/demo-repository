@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
-import Header from "../components/Header";
 import "../styles/NovaDenuncia.css";
 import MapPage from "./MapPage";
+import SidebarLayout from "../components/SidebarLayout";
 
 function NovaDenuncia() {
   const [formData, setFormData] = useState({
@@ -11,7 +11,7 @@ function NovaDenuncia() {
     endereco: ""
   });
 
-  const fileInputRef = useRef(null); // <- Referência para o input de arquivo
+  const fileInputRef = useRef(null);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -37,7 +37,6 @@ Endereço: ${formData.endereco}
 
     URL.revokeObjectURL(url);
 
-    // Limpa o formulário
     setFormData({
       titulo: "",
       descricao: "",
@@ -45,15 +44,13 @@ Endereço: ${formData.endereco}
       endereco: ""
     });
 
-    // Limpa o campo de arquivo
     if (fileInputRef.current) {
       fileInputRef.current.value = "";
     }
   };
 
   return (
-    <>
-      <Header />
+    <SidebarLayout>
       <div className="denuncia-container">
         <div className="denuncia-box">
           <h2>Registrar Nova Denúncia</h2>
@@ -105,7 +102,7 @@ Endereço: ${formData.endereco}
           </form>
         </div>
       </div>
-    </>
+    </SidebarLayout>
   );
 }
 

@@ -1,16 +1,18 @@
 import React from 'react';
 import './SidebarLayout.css';
+import { Link } from "react-router-dom";
 
 const SidebarLayout = ({ children }) => {
   return (
     <div className="layout-container">
       <aside className="sidebar">
-        <h1 className="logo">Fala<span>Recife</span></h1>
-        <nav className="menu">
-          <a href="/registrar" className="menu-link">Registrar denúncia</a>
-          <a href="/minhas-denuncias" className="menu-link">Minhas denúncias</a>
-          <a href="/estatisticas" className="menu-link">Estatísticas</a>
-          <a href="/perfil" className="menu-link">Perfil</a>
+        <img src="/logo falarecife.png" alt="Logo Fala Recife" className="logo-img-sidebar" />
+         <nav className="menu">
+          <Link to="/" className="menu-link">Início</Link>
+          <Link to="/nova-denuncia" className="menu-link">Detalhe da Denúncia</Link>
+          <Link to="/minhas-denuncias" className="menu-link">Minhas denúncias</Link>
+          <Link to="/estatisticas" className="menu-link">Estatísticas</Link>
+          <Link to="/perfil" className="menu-link">Perfil</Link>
         </nav>
       </aside>
       <main className="content">

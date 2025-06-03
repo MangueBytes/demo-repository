@@ -1,34 +1,48 @@
 .header {
-    width: 100%;
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: white;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #ef4444; /* vermelho */
-  }
-  
-  .logo span {
-    color: #ef4444;
-  }
-  
-  .nav a {
-    margin-left: 30px;
-    text-decoration: none;
-    color: #111827; /* quase preto */
-    font-weight: 500;
-  }
-  
-  .nav a:hover {
-    text-decoration: underline;
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 16px;
+  background: #FAF3E0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+
+.logo-img-header {             
+  margin-top: 5%;
+  max-height: 105px;
+  height: auto;
+  width: auto;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #111827;
+  font-size: 1.12rem;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,50 @@
+.perfil-container {
+  display: flex;
+  justify-content: center;     /* Centraliza horizontalmente */
+  align-items: center;         /* Centraliza verticalmente */
+  min-height: 100vh;           /* Ocupa a tela toda */
+  padding: 40px;
+  box-sizing: border-box;
+}
+.perfil-card {
+  background-color: #fff;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.perfil-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.perfil-actions {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-edit,
+.btn-logout {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: #ffcc00;
+  color: #000;
+}
+
+.btn-logout {
+  background-color: #002f6c;
+  color: #fff;
+}

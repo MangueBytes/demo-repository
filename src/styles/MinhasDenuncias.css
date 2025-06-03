@@ -1,0 +1,107 @@
+.minhas-denuncias-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.minhas-denuncias-container h2 {
+  color: #111827;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.denuncias-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.denuncia-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+  border-left: 6px solid; /* Cor da borda baseada no status */
+  transition: transform 0.2s ease-in-out;
+}
+
+.denuncia-card:hover {
+  transform: translateY(-5px);
+}
+
+.denuncia-card h3 {
+  color: #111827;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+}
+
+.denuncia-card p {
+  color: #374151;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.denuncia-card p strong {
+  color: #111827;
+}
+
+/* Estilos para o status */
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.status-pendente .status-badge {
+  background-color: #ffc107; /* Amarelo */
+}
+
+.status-em-analise .status-badge {
+  background-color: #17a2b8; /* Azul claro */
+}
+
+.status-resolvido .status-badge {
+  background-color: #28a745; /* Verde */
+}
+
+.status-pendente {
+  border-left-color: #ffc107;
+}
+
+.status-em-analise {
+  border-left-color: #17a2b8;
+}
+
+.status-resolvido {
+  border-left-color: #28a745;
+}
+
+.error-message {
+  color: #dc3545;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Botão de detalhes (opcional, se você quiser linkar para DetalheDenuncia) */
+.ver-detalhes-btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.ver-detalhes-btn:hover {
+  background-color: #45a049;
+}
