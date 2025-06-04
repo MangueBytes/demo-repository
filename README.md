@@ -17,10 +17,10 @@ http://falarecife.surge.sh/
 ![WhatsApp Image 2025-04-30 at 21 24 09](https://github.com/user-attachments/assets/43b2a137-8d9b-4bf6-b64e-65bda320fbac)
 
 # Backlog Jira
-![Captura de tela 2025-06-04 195439](https://github.com/user-attachments/assets/00439b04-c00e-4263-b8aa-25d05d69a214)
+![image](https://github.com/user-attachments/assets/06442dc4-71a3-474f-abf3-d1969f569d57)
 
 # Quadro Jira
-![Captura de tela 2025-06-04 195614](https://github.com/user-attachments/assets/bbe2f8d9-6d41-40d4-8e7f-073004f149c1)
+![image](https://github.com/user-attachments/assets/7bac2ded-23c3-46cf-a308-0eeb40cf8fde)
 
 # Atualização design do site
 ![Captura de tela 2025-04-30 210155](https://github.com/user-attachments/assets/b43e409c-4e70-4c11-a7b1-3c32d4775e7c)
