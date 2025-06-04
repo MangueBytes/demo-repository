@@ -25,6 +25,9 @@ http://falarecife.surge.sh/
 # Atualização design do site
 ![Captura de tela 2025-04-30 210155](https://github.com/user-attachments/assets/b43e409c-4e70-4c11-a7b1-3c32d4775e7c)
 
+![image](https://github.com/user-attachments/assets/6f2d9d09-a7d5-4381-9870-f2b59214cbbd)
+
+
 # Programação em Pares
 ![WhatsApp Image 2025-04-30 at 21 15 18](https://github.com/user-attachments/assets/92a17f05-9cce-4c7d-a934-6ae53b918b2b)
 
