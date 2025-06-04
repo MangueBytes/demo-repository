@@ -16,7 +16,6 @@ https://demo-repository-blue.vercel.app/
 # Diagrama de Atividades
 ![WhatsApp Image 2025-04-30 at 21 24 09](https://github.com/user-attachments/assets/43b2a137-8d9b-4bf6-b64e-65bda320fbac)
 
-
 # Backlog Jira
 ![image](https://github.com/user-attachments/assets/365a52bb-863f-4d7d-8502-1cc532d207cb)
 
@@ -29,20 +28,14 @@ https://demo-repository-blue.vercel.app/
 # Programação em Pares
 ![WhatsApp Image 2025-04-30 at 21 15 18](https://github.com/user-attachments/assets/92a17f05-9cce-4c7d-a934-6ae53b918b2b)
 
+![WhatsApp Image 2025-06-04 at 18 42 16](https://github.com/user-attachments/assets/5a89994d-0eda-41ca-936b-874ff86d35de)
+
 
 # bug tracker
 ![image](https://github.com/user-attachments/assets/56563c02-592e-476c-b1e6-2d12c7ff49f1)
 
 # Screencast 
-
-
 https://github.com/user-attachments/assets/fd5f632f-5299-4638-8f96-76345b0f27b7
-
-
-
-
-
-
 
 # Grupo
 Janderson José Ferreira da Silva,
