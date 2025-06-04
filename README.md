@@ -11,7 +11,7 @@ https://www.figma.com/design/0AZT7VoCdSRMA4Fy0jU8YE/Projeto----FalaRecife?node-i
 https://manguebytes.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiYTg1YmU2Y2MzODUxNGQyNTlhMTIwMTBlZGZlYjFkYWIiLCJwIjoiaiJ9
 
 # link Deploy
-https://demo-repository-blue.vercel.app/
+http://falarecife.surge.sh/
 
 # Diagrama de Atividades
 ![WhatsApp Image 2025-04-30 at 21 24 09](https://github.com/user-attachments/assets/43b2a137-8d9b-4bf6-b64e-65bda320fbac)
