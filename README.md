@@ -26,7 +26,6 @@ http://falarecife.surge.sh/
 ![Captura de tela 2025-04-30 210155](https://github.com/user-attachments/assets/b43e409c-4e70-4c11-a7b1-3c32d4775e7c)
 
 ![image](https://github.com/user-attachments/assets/6f2d9d09-a7d5-4381-9870-f2b59214cbbd)
-![Captura de tela 2025-06-04 195040](https://github.com/user-attachments/assets/de14648c-e58d-455e-80d5-013912132cea)
 
 
 # Programação em Pares
