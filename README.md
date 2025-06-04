@@ -11,47 +11,38 @@ https://www.figma.com/design/0AZT7VoCdSRMA4Fy0jU8YE/Projeto----FalaRecife?node-i
 https://manguebytes.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiYTg1YmU2Y2MzODUxNGQyNTlhMTIwMTBlZGZlYjFkYWIiLCJwIjoiaiJ9
 
 # link Deploy
-https://demo-repository-blue.vercel.app/
+http://falarecife.surge.sh/
 
 # Diagrama de Atividades
 ![WhatsApp Image 2025-04-30 at 21 24 09](https://github.com/user-attachments/assets/43b2a137-8d9b-4bf6-b64e-65bda320fbac)
 
-
 # Backlog Jira
-![image](https://github.com/user-attachments/assets/365a52bb-863f-4d7d-8502-1cc532d207cb)
+![Captura de tela 2025-06-04 195439](https://github.com/user-attachments/assets/00439b04-c00e-4263-b8aa-25d05d69a214)
 
 # Quadro Jira
-![image](https://github.com/user-attachments/assets/2df65299-9bdb-4044-ab8a-f5bc57a9bb93)
+![Captura de tela 2025-06-04 195614](https://github.com/user-attachments/assets/bbe2f8d9-6d41-40d4-8e7f-073004f149c1)
 
 # Atualização design do site
 ![Captura de tela 2025-04-30 210155](https://github.com/user-attachments/assets/b43e409c-4e70-4c11-a7b1-3c32d4775e7c)
 
+![image](https://github.com/user-attachments/assets/6f2d9d09-a7d5-4381-9870-f2b59214cbbd)
+
+
 # Programação em Pares
 ![WhatsApp Image 2025-04-30 at 21 15 18](https://github.com/user-attachments/assets/92a17f05-9cce-4c7d-a934-6ae53b918b2b)
+
+![WhatsApp Image 2025-06-04 at 18 42 16](https://github.com/user-attachments/assets/5a89994d-0eda-41ca-936b-874ff86d35de)
 
 
 # bug tracker
 ![image](https://github.com/user-attachments/assets/56563c02-592e-476c-b1e6-2d12c7ff49f1)
 
 # Screencast 
-
-
-https://github.com/user-attachments/assets/fd5f632f-5299-4638-8f96-76345b0f27b7
-
-
-
-
-
+https://github.com/user-attachments/assets/92c9e32e-83cc-456c-bf8c-0ce20df44e81
 
 
 # Grupo
 Janderson José Ferreira da Silva,
 Pedro Henrique Rennil da Silva Souza,
 Rhaldney Robert Chaves Diniz.
-![Auto Assign](https://github.com/MangueBytes/demo-repository/actions/workflows/auto-assign.yml/badge.svg)
-
-![Proof HTML](https://github.com/MangueBytes/demo-repository/actions/workflows/proof-html.yml/badge.svg)
-
-# Welcome to your organization's demo respository
-This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
 
